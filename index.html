@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yiqi - Stock Predictor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Yiqi - Stock Predictor Tool</h1>
+        </header>
+
+        <main>
+            <section id="input-section">
+                <h2>Enter Stock Symbol</h2>
+                <form id="stock-form">
+                    <input type="text" id="stock-symbol" placeholder="e.g. AAPL, TSLA">
+                    <button type="submit">Get Prediction</button>
+                </form>
+            </section>
+
+            <section id="result-section">
+                <h2>Stock Prediction</h2>
+                <div id="prediction-output">
+                    <!-- Predictions will be displayed here -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Powered by Yiqi | Sentiment and Stock Predictor</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
